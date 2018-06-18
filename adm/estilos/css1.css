@@ -1,0 +1,40 @@
+*
+{
+    margin:0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Verdana, sans-serif;
+	border: none;
+}
+	#image img
+	{
+		display:block;
+		width:1500px;
+		height:220px
+	}
+#login form label
+{
+	display: block;
+	text-align:center;
+	margin-top:40px;	
+}
+	#login form label input
+	{
+		border: 1px solid #000;
+		font-size: 25px;
+		font-family:arial;
+		margin-top:10px;
+	}
+	#login form label span
+	{
+		font-size: 30px;
+		font-family:arial;
+		display: block;
+	}
+		#login form label input.sub
+		{
+			font-size:20px;
+			padding:5px 20px 5px 20px;
+			margin-top: 0px
+		}

@@ -1,0 +1,343 @@
+/*tirando todas as configurações automaticas */
+*
+{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, Verdana, sans-serif;
+	border: none;
+}
+body
+{
+	behavior:url(estilos/PIE/PIE.htc);
+	background-image: url(../imagens/fundo.png);
+	background-repeat: no repeat;
+	background-size:100% 100%;
+}
+#site
+{
+    width: 1000px;
+    height:auto;
+}
+#logo img
+{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 120px;
+    width: 200px;
+    float: left;
+}
+#slogan img
+{
+    height: 120px;
+    width: 550px;
+    margin: 25px auto auto 80px;
+}
+#topo
+{
+    behavior:url(estilos/PIE/PIE.htc);
+    width: 1000px;
+    height: 180px;
+    margin-top: -20px;
+    background-color: #6766CC;
+    -moz-border-radius: 20px; /* Arredondado Para Firefox */
+    -webkit-border-radius: 20px; /* Para Safari e Chrome */
+    border-radius: 20px; /* Para Opera 10.5+ */
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8); 
+	-webkit-box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.8); 
+}
+/* estilo da barra de navegação do site */
+	#topo h1
+	{
+		visibility:hidden;
+		display:none;
+	}
+	
+#barra
+{
+    behavior:url(estilos/PIE/PIE.htc)/* PIE faz funcionar no IE a borda arredondada */;
+    width: 830px;
+    height: 38px;
+    position: relative;
+    margin: 15px auto;
+    background: url(../imagens/backbarra.gif) repeat-x;
+    -moz-border-radius: 10px; /* Arredondado Para Firefox */
+    -webkit-border-radius: 10px; /* Para Safari e Chrome */
+    border-radius: 10px; /* Para Opera 10.5+ */
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.8); 
+	
+}
+	
+	#barra ul.nav
+	{
+		margin: 14px;
+   
+	}
+
+		#barra ul.nav li
+		{
+			display:inline;
+		}
+
+			#barra ul.nav li a
+			{
+				text-align: center;
+				float: left;
+				margin-top: 4px;
+				border-right: 1px solid #8F8FDA;
+				border-left: 1px solid #000;
+				padding:5px 17px 5px 17px;
+				color: #000;
+				font-weight: bold;    
+			}
+
+				#barra ul.nav li a.se
+				{
+					border-left: none;
+				}
+
+					#barra ul.nav li a.sem
+					{
+						border-right:none
+					}
+
+						#barra ul.nav li a:hover
+						{
+							background-color: #FF8B17;
+							color: #6766CC;
+							border-bottom: 1px solid #8F8FDA;
+							border-right: 1px solid #000;
+							border-left: 1px solid #8F8FDA;
+							border-top: 1px solid #000;
+							padding-bottom: 3px; 
+  
+						}		
+							
+							#barra ul.nav li a.se:hover
+							{
+								margin-left: -1px;
+							}
+
+/* parte de traz do conteudo */							
+#conteudo
+{
+    behavior:url(estilos/PIE/PIE.htc);
+    width: 900px;
+    min-height: 660px;
+    padding:20px;
+    border: 1px solid transparent;
+    margin-top: 5px;
+    background-color: #6766CC;
+    -moz-border-radius: 20px; /* Arredondado Para Firefox */
+    -webkit-border-radius: 20px; /* Para Safari e Chrome */
+    border-radius: 20px; /* Para Opera 10.5+ */
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.8); 
+	
+}
+#rodape
+{
+    behavior:url(estilos/PIE/PIE.htc);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 990px;
+    height: 50px;
+    background-color: #6766CC;
+    -moz-border-radius: 20px; /* Arredondado Para Firefox */
+    -webkit-border-radius: 20px; /* Para Safari e Chrome */
+    border-radius: 20px; /* Para Opera 10.5+ */
+	box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.8); 
+	
+}
+	#rodape img
+	{
+		width: 600px;
+		height: 50px;
+		display:block;
+	}	
+		#rodape h2
+		{
+			visibility:hidden;
+			display:none;
+		}
+
+/*aki começa o formulario*/
+
+#agend
+{
+	width: 800px;
+	min-height: 570px;
+	padding: 20px;
+	background-color: #fff;
+	margin-top: 30px;
+}
+	#agend span.ag
+	{
+		display: block;
+		text-align: center;
+		font-family: arial;
+		font-weight:bold;
+		font-size: 30px;
+		margin-bottom:0px;
+	}
+		#agend form input
+		{
+			border: 1px solid #999999;
+		}
+		#agend form input:focus
+		{
+			border: 1px solid #000;
+			color:#000;
+		}
+			#agend form label span
+			{
+				display:inline-block;
+				width:90px;
+				color:#999999;
+			}
+			#agend form label span:focus
+			{
+				color:#000;
+			}
+				#agend form 
+				{
+					margin: 0px  40px 40px 40px;
+				}
+					#agend form, #agend input
+					{
+						font-size: 20px;
+						font-family: arial;
+					}
+						#agend form input.ex
+						{
+							width: 622px;
+						}
+#agend form textarea
+{
+	border: 1px solid #999999;
+	display: block;
+	color:#999999;
+}
+#agend form textarea:focus
+{
+	border: 1px solid #000;
+	color:#000;
+}	
+#tel
+{
+	display:block;
+	width:322px;
+	height:30px;
+	margin-top: 35px;
+}
+#agend label.ser
+{
+	display:block;
+	text-align:center;
+	margin: 0px 0px 30px 0px;
+}
+#agend input.env
+{
+	display:block; 
+	width:100px; 
+	height:35px;
+	margin-top: 50px;
+}
+#agend select
+{
+	border: 1px solid #999999;
+}
+#form
+{
+	width: 720px;
+	height: 60px;
+	line-height:30px;	
+}
+/* estilo do jquery do formulario */
+
+label.error 
+{ 
+	color: red; 
+	vertical-align: top; 
+	font-size: 10px; 
+	clear:both;
+	margin-left:100px;
+}
+#agend  ol.telefone
+{
+	margin:30px 0 50px 0; 
+	display:block; 
+	text-align:center;
+	font-family: arial;
+	font-size: 28px;
+}
+
+/* fim do estilo do jquery do formulario */
+
+/*aki termina o formulario*/
+/*
+	aki começa o slide
+	Coin Slider jQuery plugin CSS styles
+	http://workshop.rs/projects/coin-slider
+*/
+
+
+.coin-slider { overflow: hidden; zoom: 1; position: relative; }
+.coin-slider a{ text-decoration: none; outline: none; border: none; }
+
+.cs-buttons { font-size: 0px; padding: 10px; float: left; }
+.cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
+.cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+
+
+.cs-prev, 
+.cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+
+#coin-slider
+{
+	margin-top: 40px;
+	
+}
+/*aki termina o slide*/
+
+/*pagina sobre */
+#sobre
+{
+	width: 800px;
+	min-height: 570px;
+	padding: 20px;
+	background-color: #fff;
+	margin-top: 30px;
+}
+	#sobre img.logo
+	{
+		display:block;
+		width: 300px;
+		height: 150px;		
+	}
+		#sobre img.loja
+		{
+			display:block;
+			width: 800px;
+			height: 500px
+		}
+			#sobre p.historia
+			{
+				font-family:arial;
+				text-align:justify;
+				margin: 20px 10px 20px 10px;
+				line-height: 25px;
+				text-indent: 25px;
+			}
+
+a, input:hover
+{
+	cursor:pointer;
+}
